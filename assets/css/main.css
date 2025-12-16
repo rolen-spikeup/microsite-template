@@ -1,9 +1,13 @@
 /* VARIABLES */
 :root {
     --primary-color: #4440e8;
+    --primary-color-hover: #3b37c7;
     --secondary-color: #000;
+    --secondary-color-hover: #232323;
     --tertiary-color: #4FAE55;
+    --tertiary-color-hover: #3e8b43;
     --quarternary-color: #657e79;
+    --quarternary-color-hover: #4c5e5b;
     --text-color: #000;
 }
 
