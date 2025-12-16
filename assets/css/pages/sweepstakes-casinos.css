@@ -1,0 +1,305 @@
+/* Banner Header */
+.header-main-container {
+    min-height: 450px;
+    background: linear-gradient(to top, rgba(146, 2, 171, 0.688), rgb(0, 0, 0)), url(https://offers.lines.com/images/main-bg.jpg) repeat-x 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075);
+    background-color: #fff;
+    border-bottom: solid #d9d9d9 1px;
+    color: #fff;
+}
+
+.header-container {
+    font-size: 18px;
+    background: #fff;
+    padding: 2rem 2rem 1rem;
+    border-radius: var(--ow-bs-border-radius-xl) !important;
+}
+
+.header-main-container h1 {
+  font-size: 48px;
+  line-height: normal;
+}
+
+.header-main-container h1 span {
+  color: #2ded78;
+  font-size: 32px;
+}
+
+/*.header-main-container-2 h1 span {
+  font-size: 38px;
+}*/
+
+.header-main-container p {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.header-main-container .score {
+  margin-top: -60px;
+  font-size: 24px;
+  font-family: blender pro, arial, sans-serif;
+}
+
+.header-main-container .score strong {
+  display: block;
+  margin-top: 10px;
+  font-size: 48px;
+}
+
+
+@media screen and (max-width: 575px) {
+    .header-main-container h1 {font-size: 34px;}
+    .header-main-container h1 span {font-size: 24px;}
+}
+
+/* Pros and Cons */
+.pros-wrap {
+    border-radius: 8px;
+    background: #e4fff0;
+    height: 100%;
+    border: 1px solid #bff7d8;
+}
+
+.cons-wrap {
+    border-radius: 8px;
+    background: #ffe2e5;
+    height: 100%;
+    border: 1px solid #f1c9cd;
+}
+
+.pros-wrap ul,
+.cons-wrap ul {list-style: none; padding: 0; margin: 0;}
+
+/* Main Button */
+.main-button {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 15px 55px;
+  background-color: #2ded78;
+  border-radius: 25px;
+  border: solid #11cd59 1px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #02421b!important;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  box-shadow: 0 0px 1px rgba(0,0,0,.7);
+}
+
+.main-button:hover {
+  background-color: #cafadd!important;
+  color: #02421b!important;
+  text-decoration: none;
+}
+
+.main-button.wide-btn {
+  width: 100%;
+}
+
+
+/* Check and X mark Icons */
+.bi {
+  padding: 0 5px 0 0;
+}
+
+.bi-check-lg {
+  color: rgba(149, 7, 7, 0.718);
+}
+
+.bi-check-circle-fill,
+.bi-shield-fill-check {
+  color: #11cd59;
+}
+
+.bi-x-circle-fill {
+  color: rgb(249, 15, 15);
+}
+
+/* Casino List Block */
+.casino-list-block {
+  box-shadow: 0 0 .25rem 2px rgba(0, 0, 0, .075);
+  border-radius: 25px;
+  background-color: #fff;
+  /* font-size: 16px;
+  line-height: 22px; */
+}
+
+.casino-list-block >.row .col-2 h1 {margin-top: 0!important;}
+
+
+.casino-list-logo  {max-width: 120px; max-height: 80px; width: auto; height: auto;}
+
+
+.casino-list-text {list-style: none; padding: 0; margin: 0; max-width: 100%; width: fit-content; color: white; background: rgba(0,0,0,.3); border-radius: 8px; max-width: 100%;gap: 10px;margin: 0;}
+
+.casino-list-text .bi-check-lg {color: #2ded78;}
+
+.casino-list-block .casino-list-btn-col {
+        border-bottom: 1px solid #d9d9d9;
+        border-left: 1px solid #d9d9d9;
+    }
+
+
+    .casino-rating {
+        border-radius: 20px;
+        line-height: 1;
+        background: #dcdcdc;
+        max-width: 120px;
+        width: 100%;
+    }
+
+    .casino-rating .bi-star-fill {
+        font-size: 20px; 
+        color: #ffc10a; 
+        padding: 0;
+    }
+
+.casino-list-block .col-2, .casino-list-block .col-1 {
+  border-right: solid #d9d9d9 1px;
+  border-bottom: solid #d9d9d9 1px;
+}
+
+.casino-list-block .col-2 h1 {
+  margin: 15px 0 0 0!important;
+  font-size: 42px;
+  line-height: 52px;
+}
+
+.casino-list-block .col-6, .casino-list-block .col-8 {
+  border-right: solid #d9d9d9 1px;
+  border-bottom: solid #d9d9d9 1px;
+}
+
+.casino-list-block .col-4 {
+  border-bottom: solid #d9d9d9 1px;
+}
+
+.casino-list-block .col-5 {
+    border-left: solid #d9d9d9 1px;
+    border-bottom: solid #d9d9d9 1px;
+}
+
+.casino-list-banner {
+  border-radius: 25px;
+  border: solid #d9d9d9 1px;
+  /* background: url('../images/bg_1.png') 0 0 no-repeat; */
+  /* background-size: cover; */
+  background: linear-gradient(to top, rgb(243 134 10), rgb(116 68 1), rgb(0 0 0))
+}
+
+.casino-list-banner h1 {
+  color: #fff;
+  text-shadow: 0px 2px 4px #333333;
+}
+
+
+@media screen and (max-width: 575px) {
+    .casino-list-logo {max-height: 50px;}
+
+    .casino-list-block .col-2 h1 {font-size: 32px;}
+
+    .casino-list-block .casino-list-btn-col {
+        border-left: none;
+        border-bottom: none;
+    }
+}
+
+
+.bg-block-1 {
+  background: url(../images/bg_1.png) repeat-x 50% 0, linear-gradient(to top, rgba(34, 202, 244, 0.5), rgba(4, 68, 141));
+  /* background-size: cover; */
+}
+
+.bg-block-2 {
+  background: url(../images/bg_1.png) repeat-x 50% 0, linear-gradient(to top, rgb(243 134 10), rgb(116 68 1), rgb(0 0 0));
+  /* url(../images/bg_1.png) repeat-x 50% 0, linear-gradient(to top, rgba(243, 45, 15, 0.5), rgba(224, 222, 222, 0.5), rgba(5, 86, 185)); */
+}
+
+.bg-block-3 {
+  background: url(../images/bg_1.png) repeat-x 50% 0, linear-gradient(to top, rgba(34, 244, 76, 0.5), rgb(1, 39, 9));
+}
+
+.bg-block-3-a {
+  background: url(../images/bg_1.png) repeat-x 50% 0, linear-gradient(to top, #2348f09e, #02199c);
+}
+
+.bg-block-4 {
+  background: linear-gradient(to top, rgba(208, 44, 19, 0.3), rgba(222, 33, 3)), url(../images/bg_2.svg);
+}
+
+.bg-block-5 {
+  background: url(../images/bg_1.png) repeat-x 50% 0, linear-gradient(to top, rgba(243, 37, 5, 0.9), rgb(0, 5, 1));
+}
+
+.bg-block-5-a {
+  background: url(../images/bg_1.png) repeat-x 50% 0, linear-gradient(to left, #3f259d9e, #0e023e);
+}
+
+.bg-block-8 {
+  background: url(../images/bg_1.png) repeat-x 50% 0, linear-gradient(to top, #082ccf, #fafafa);
+}
+
+.bg-block-9 {
+  background: url(../images/bg_1.png) repeat-x 50% 0, linear-gradient(to top, #05db7f, #01093a);
+}
+
+.bg-block-10 {
+  background: url(../images/bg_1.png) repeat-x 50% 0, linear-gradient(to left, #1c2972, #ee6508);
+}
+
+.bg-block-11 {
+  background: url(../images/bg_1.png) repeat-x 50% 0, linear-gradient(to top, #a10381, #f3f3f3);
+}
+
+.bg-block-11-a {
+  background: linear-gradient(to top, rgb(237 137 25 / 91%), rgb(3 47 177 / 94%)), url(../images/bg_2.svg);
+}
+
+.bg-block-12 {
+  background: url(../images/bg_1.png) repeat-x 50% 0, linear-gradient(to top, rgb(111 10 129), rgb(203 173 229));
+}
+
+.bg-block-12 {
+  background: url(../images/bg_1.png) repeat-x 50% 0, linear-gradient(to top, rgb(111 10 129), rgb(203 173 229));
+}
+
+.bg-block-13 {
+  background: url(../images/bg_1.png) repeat-x 50% 0, linear-gradient(to top, rgb(184 141 242), rgb(154 81 255), rgb(55 2 118));
+}
+
+.bg-block-14 {
+  background: url(../images/bg_1.png) repeat-x 50% 0, linear-gradient(to top, rgb(253 186 0), rgb(245 117 54), rgb(0 0 0));
+}
+
+.bg-block-15 {
+  background: url(../images/bg_1.png) repeat-x 50% 0, linear-gradient(to top, rgb(253 186 0), rgb(255 85 0), rgb(0 0 0));
+}
+
+.bg-block-16 {
+  background: url(../images/bg_1.png) repeat-x 50% 0, linear-gradient(to top, #080418, #1f1446, rgb(75 80 138));
+}
+
+.bg-block-17 {
+  background: url(../images/bg_1.png) repeat-x 50% 0, linear-gradient(to top, #142a2a, #142a2a, #4b6a6a);
+}
+
+.bg-block-jackpot-rabbit {
+  background: url(../images/bg_1.png) repeat-x 50% 0, linear-gradient(to top, rgb(235 255 7), rgb(161 175 1), rgb(108 117 0));
+}
+
+
+
+
+
+
+
+
+        
+
+        
+
+        
