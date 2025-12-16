@@ -92,13 +92,13 @@ p {margin-bottom: 12px;}
 .button {display: inline-flex; text-align: center; align-items: center; justify-content: center; min-height: 50px; font-weight: 600; font-size: 16px; border-radius: 6px;}
 
 .button-primary {background: var(--primary-color); color: #fff;}
-.button-primary:hover {background: #2b8169; color: #fff; text-decoration: none;}
+.button-primary:hover {background: var(--primary-color-hover); color: #fff; text-decoration: none;}
 
 .button-secondary {background: var(--secondary-color); color: #fff;}
-.button-secondary:hover {background: #43534f; color: #fff; text-decoration: none;}
+.button-secondary:hover {background: var(--secondary-color-hover); color: #fff; text-decoration: none;}
 
 .button-quarternary {background: var(--quarternary-color); color: #fff;}
-.button-quarternary:hover {background:#4d6560; color: #fff; text-decoration: none;}
+.button-quarternary:hover {background:var(--quarternary-color-hover); color: #fff; text-decoration: none;}
 
 .button-wide {width: 100%;}
 .button-small {font-size: 14px!important; min-height: 40px!important;}
